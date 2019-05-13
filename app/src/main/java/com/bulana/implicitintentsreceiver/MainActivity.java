@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
                     + uri.toString();
             TextView textView = findViewById(R.id.text_uri_message);
             textView.setText(uri_string);
+        }
     }
 }
